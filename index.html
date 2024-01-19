@@ -34,7 +34,7 @@
     git diff --staged <!-- (staged <-changes-> commit ) -->
     git commit -m "My text"
     git commit --amend (chenges commit)
-    git reset --hard HEAD~2 (delete 2 commmit)
+    git reset --hard HEAD~1 (delete 1 commmit)
     git reset --soft HEAD~3 (delete 3 commit but the latest version remains)
     git log -1 -p
     git log --pretty=oneline
@@ -50,6 +50,7 @@
     git push origin
     git push origin main --force (delete on github)
     git pull origin main
+    git fetch
     git push origin --delete name_branch
     git remote -v (version html or SSH)
     git remote set-url origin url(ssh)
@@ -60,6 +61,14 @@
     git checkout -b name (added branch and checkout)
     git checkout name (or commit to return to version)
     git merge name_branch
+
+    git remote add origin https://github.com/ваш-пользователь/новый-репозиторий.git
+    git branch -M main
+    git push -u origin main (local -> githab)
+
+    GitHub Actions (format file in *.yml sintacsis -> Ansible and Dokerfile)
+
+    new line
 
 
 
